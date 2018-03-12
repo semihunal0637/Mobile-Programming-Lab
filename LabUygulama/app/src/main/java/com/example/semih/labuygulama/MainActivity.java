@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mesajText = (EditText)findViewById(R.id.editText);
                 Intent intent=new Intent(MainActivity.this,Main2Activity.class);
-                intent.putExtra("bilgi",mesajText.getText().toString());
+                intent.putExtra("bilgi",mesajText.getText().toString()); //Veri Gönderme İşlemi
                 startActivity(intent);
             }
         });

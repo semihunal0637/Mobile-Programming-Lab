@@ -34,7 +34,7 @@ public class Main2Activity extends AppCompatActivity {
             }
         });
         textView = (TextView)findViewById(R.id.textView);
-
+        //1.Activiteden Gönderilen Veriyi Alma İşlemi
         Bundle alinanMesaj = getIntent().getExtras();
         String deger = alinanMesaj.getString("bilgi");
 
